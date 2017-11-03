@@ -16,7 +16,7 @@ namespace RohlCall
          * Description: This DLL will be used for rolling stat dice and keeping track
          * of other random integer uses.
          */
-
+         //Gerryisapoop
         //Stat rolling method, not very efficient yet.
         public string statRoller()
         {
