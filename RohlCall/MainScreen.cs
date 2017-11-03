@@ -17,10 +17,13 @@ namespace RohlCall
             InitializeComponent();
         }
 
+        TKRCDiceRollers DiceRoll = new TKRCDiceRollers();
+
         private void rohlCallToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AboutBox1 frm = new AboutBox1();
             frm.Show();
+            MessageBox.Show(DiceRoll.statRoller(), "test");
         }
     }
 }
