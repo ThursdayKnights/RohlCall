@@ -19,7 +19,8 @@ namespace RohlCall
 
         private void rohlCallToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AboutBox1.ShowDialog
+            AboutBox1 frm = new AboutBox1();
+            frm.Show();
         }
     }
 }
