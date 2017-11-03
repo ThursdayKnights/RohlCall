@@ -11,12 +11,12 @@ namespace RohlCall
         Random rnd = new Random();
 
         /*
-         * Owner: Thursday Knights,
+         * Owner: Thursday Knights,C:\Users\Gerry\Documents\Visual Studio 2015\Projects\RohlCall\RohlCall\TKRCDiceRollers.cs
          * Authors: Christopher Rupert, Peter Adam
          * Description: This DLL will be used for rolling stat dice and keeping track
          * of other random integer uses.
          */
-
+         //GERRY IS THE GREATEST
         //Stat rolling method, not very efficient yet.
         public string statRoller()
         {
