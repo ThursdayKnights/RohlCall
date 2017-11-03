@@ -29,7 +29,7 @@ namespace RohlCall
         //Debug button, necessary for beta.
         private void debugToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(DiceRoll.statRoller(), "test");
+            MessageBox.Show(DiceRoll.DiceRoll(3,12), "test");
         }
     }
 }
