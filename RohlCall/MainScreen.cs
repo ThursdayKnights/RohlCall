@@ -23,6 +23,12 @@ namespace RohlCall
         {
             AboutBox1 frm = new AboutBox1();
             frm.Show();
+            
+        }
+
+        //Debug button, necessary for beta.
+        private void debugToolStripMenuItem_Click(object sender, EventArgs e)
+        {
             MessageBox.Show(DiceRoll.statRoller(), "test");
         }
     }
