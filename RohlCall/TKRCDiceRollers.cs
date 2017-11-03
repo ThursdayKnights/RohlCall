@@ -17,6 +17,7 @@ namespace RohlCall
                 stats[x] = rnd.Next(1, 7);
             }
             Array.Sort(stats);
+            //hi gerry
             return "( " + stats[0] + " + " + stats[1] + " + " + stats[2] + " + " + stats[3] + " )";
         }
     }
