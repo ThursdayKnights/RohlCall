@@ -10,6 +10,8 @@ namespace RohlCall
     {
         private int ModMath(int stats)
         {
+            //Mod math designed for stat modifiers
+            //Author: Gerry
             int mod;
             mod = (stats - 10) / 2;
             return mod;
