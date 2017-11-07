@@ -52,12 +52,22 @@
     <Compile Include="AboutBox1.Designer.cs">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="frmTKRCCharacterSheet.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmTKRCCharacterSheet.Designer.cs">
       <DependentUpon>frmTKRCCharacterSheet.cs</DependentUpon>
     </Compile>
+=======
+    <Compile Include="InitTrack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InitTrack.Designer.cs">
+      <DependentUpon>InitTrack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestPA.cs" />
+>>>>>>> 23fa6925a95251e8ed9af5df20caca3238e80a4b
     <Compile Include="MainScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +80,9 @@
     <Compile Include="TKRCDiceRollers.cs" />
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InitTrack.resx">
+      <DependentUpon>InitTrack.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
