@@ -65,7 +65,7 @@
             // rohlCallToolStripMenuItem
             // 
             this.rohlCallToolStripMenuItem.Name = "rohlCallToolStripMenuItem";
-            this.rohlCallToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.rohlCallToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.rohlCallToolStripMenuItem.Text = "Rohl Call";
             this.rohlCallToolStripMenuItem.Click += new System.EventHandler(this.rohlCallToolStripMenuItem_Click);
             // 
