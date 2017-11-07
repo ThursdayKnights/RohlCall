@@ -14,3 +14,6 @@ C:\Users\ashle\Documents\GitHub\RohlCall\RohlCall\obj\Debug\RohlCall.pdb
 C:\Users\Gerry\Documents\Visual Studio 2015\Projects\RohlCall\RohlCall\bin\Debug\RohlCall.exe.config
 C:\Users\Gerry\Documents\Visual Studio 2015\Projects\RohlCall\RohlCall\obj\Debug\RohlCall.exe
 C:\Users\Gerry\Documents\Visual Studio 2015\Projects\RohlCall\RohlCall\obj\Debug\RohlCall.pdb
+C:\ThursdayKnights\RohlCall\RohlCall\bin\Debug\RohlCall.exe.config
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.exe
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.pdb
