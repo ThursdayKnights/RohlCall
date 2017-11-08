@@ -32,6 +32,11 @@ namespace RohlCall
             MessageBox.Show(DiceRoll.DiceRoll(3,12), "test");
         }
 
-        
+        private void btnInitTrack_Click(object sender, EventArgs e)
+        {
+            //Open Initiative Tracker
+            frmInitTrack frm = new RohlCall.frmInitTrack();
+            frm.Show();
+        }
     }
 }

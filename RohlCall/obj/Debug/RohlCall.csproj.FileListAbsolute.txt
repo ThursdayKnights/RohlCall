@@ -17,3 +17,11 @@ C:\Users\Gerry\Documents\Visual Studio 2015\Projects\RohlCall\RohlCall\obj\Debug
 C:\ThursdayKnights\RohlCall\RohlCall\bin\Debug\RohlCall.exe.config
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.exe
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.pdb
+C:\ThursdayKnights\RohlCall\RohlCall\bin\Debug\RohlCall.exe
+C:\ThursdayKnights\RohlCall\RohlCall\bin\Debug\RohlCall.pdb
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.csprojResolveAssemblyReference.cache
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.AboutBox1.resources
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmInitTrack.resources
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmMainScreen.resources
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.Properties.Resources.resources
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.csproj.GenerateResource.Cache

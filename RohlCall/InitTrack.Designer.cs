@@ -42,6 +42,8 @@
             // lstEntries
             // 
             this.lstEntries.FormattingEnabled = true;
+            this.lstEntries.Items.AddRange(new object[] {
+            "Add new entry"});
             this.lstEntries.Location = new System.Drawing.Point(12, 27);
             this.lstEntries.Name = "lstEntries";
             this.lstEntries.Size = new System.Drawing.Size(222, 79);
