@@ -21,6 +21,7 @@ namespace RohlCall
 
         private void rohlCallToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //Open About Box
             AboutBox1 frm = new AboutBox1();
             frm.Show();
             
@@ -36,6 +37,13 @@ namespace RohlCall
         {
             //Open Initiative Tracker
             frmInitTrack frm = new RohlCall.frmInitTrack();
+            frm.Show();
+        }
+
+        private void btnCharSheet_Click(object sender, EventArgs e)
+        {
+            //Open Character Sheet
+            frmTKRCCharacterSheet frm = new frmTKRCCharacterSheet();
             frm.Show();
         }
     }
