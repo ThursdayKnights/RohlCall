@@ -40,7 +40,7 @@ namespace RohlCall
 
             //Drop the lowest value by just minusing it from the total value.
             outPut -= stats[0];
-            //snu snuuuuu
+
             //For testing phases only.
             return "( " + stats[0] + " + " + stats[1] + " + " + stats[2] + " + " + stats[3] + " )  = " + outPut + " with lowest dropped";
         }
