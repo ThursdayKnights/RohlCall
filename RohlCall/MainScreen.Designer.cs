@@ -33,6 +33,8 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rohlCallToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.debugToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnInitTrack = new System.Windows.Forms.Button();
+            this.btnCharSheet = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,11 +78,33 @@
             this.debugToolStripMenuItem.Text = "&Debug";
             this.debugToolStripMenuItem.Click += new System.EventHandler(this.debugToolStripMenuItem_Click);
             // 
+            // btnInitTrack
+            // 
+            this.btnInitTrack.Location = new System.Drawing.Point(13, 49);
+            this.btnInitTrack.Name = "btnInitTrack";
+            this.btnInitTrack.Size = new System.Drawing.Size(75, 35);
+            this.btnInitTrack.TabIndex = 1;
+            this.btnInitTrack.Text = "Initiative Tracker";
+            this.btnInitTrack.UseVisualStyleBackColor = true;
+            this.btnInitTrack.Click += new System.EventHandler(this.btnInitTrack_Click);
+            // 
+            // btnCharSheet
+            // 
+            this.btnCharSheet.Location = new System.Drawing.Point(110, 49);
+            this.btnCharSheet.Name = "btnCharSheet";
+            this.btnCharSheet.Size = new System.Drawing.Size(75, 35);
+            this.btnCharSheet.TabIndex = 2;
+            this.btnCharSheet.Text = "Character Sheet";
+            this.btnCharSheet.UseVisualStyleBackColor = true;
+            this.btnCharSheet.Click += new System.EventHandler(this.btnCharSheet_Click);
+            // 
             // frmMainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(833, 374);
+            this.Controls.Add(this.btnCharSheet);
+            this.Controls.Add(this.btnInitTrack);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMainScreen";
@@ -99,6 +123,8 @@
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem rohlCallToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem debugToolStripMenuItem;
+        private System.Windows.Forms.Button btnInitTrack;
+        private System.Windows.Forms.Button btnCharSheet;
     }
 }
 
