@@ -25,12 +25,61 @@ namespace RohlCall
          *                                                                  *
          *******************************************************************/
 
+
         public frmInitTrack()
         {
             InitializeComponent();
         }
 
+        InitTrackPA PA = new InitTrackPA();
+
+        private void btnNextTurn_Click(object sender, EventArgs e)
+        {
+            /*
+             * 
+             *  REPLACE ME WITH A "SELECT ALL" BUTTON
+             * 
+             */
+
+            //select all items. If all items are selected, deselect instead
+            bool areAllSelected = false;
+
+            for (int i = 0; i < lstEntries.Items.Count; i++)
+            {
+                if (!lstEntries.GetItemChecked(i))
+                {
+                    areAllSelected = true;
+                    break;
+                }
+            }
+
+            for (int i = 0; i < lstEntries.Items.Count; i++)
+            {
+                lstEntries.SetItemChecked(i, areAllSelected);
+            }
 
 
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            //Clears score of selected entry
+            foreach (object selected in lstEntries.CheckedItems.OfType<string>().ToList())
+            {
+                lstEntries.Items.Add("");
+                lstEntries.Items.Remove(selected);
+                
+            }
+        }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            //Remove all selected
+            foreach (object selected in lstEntries.CheckedItems.OfType<string>().ToList())
+            {
+                lstEntries.Items.Remove(selected);
+            }
+        }
     }
+
 }

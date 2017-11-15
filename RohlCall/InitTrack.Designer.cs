@@ -42,6 +42,12 @@
             // lstEntries
             // 
             this.lstEntries.FormattingEnabled = true;
+            this.lstEntries.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "3",
+            "4"});
             this.lstEntries.Location = new System.Drawing.Point(12, 27);
             this.lstEntries.Name = "lstEntries";
             this.lstEntries.Size = new System.Drawing.Size(222, 79);
@@ -65,6 +71,7 @@
             this.btnClear.TabIndex = 4;
             this.btnClear.Text = "&Clear Selected";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnRemove
             // 
@@ -74,6 +81,7 @@
             this.btnRemove.TabIndex = 5;
             this.btnRemove.Text = "&Remove Selected";
             this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // btnNewEntry
             // 
@@ -92,6 +100,7 @@
             this.btnNextTurn.TabIndex = 7;
             this.btnNextTurn.Text = "Next Turn";
             this.btnNextTurn.UseVisualStyleBackColor = true;
+            this.btnNextTurn.Click += new System.EventHandler(this.btnNextTurn_Click);
             // 
             // label1
             // 
