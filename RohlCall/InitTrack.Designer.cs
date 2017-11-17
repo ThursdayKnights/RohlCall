@@ -37,6 +37,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnSelectAll = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lstEntries
@@ -48,14 +49,14 @@
             "3",
             "3",
             "4"});
-            this.lstEntries.Location = new System.Drawing.Point(12, 27);
+            this.lstEntries.Location = new System.Drawing.Point(12, 50);
             this.lstEntries.Name = "lstEntries";
             this.lstEntries.Size = new System.Drawing.Size(222, 79);
             this.lstEntries.TabIndex = 2;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(241, 27);
+            this.button1.Location = new System.Drawing.Point(241, 50);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(31, 23);
             this.button1.TabIndex = 3;
@@ -65,7 +66,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(13, 113);
+            this.btnClear.Location = new System.Drawing.Point(13, 136);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 34);
             this.btnClear.TabIndex = 4;
@@ -75,7 +76,7 @@
             // 
             // btnRemove
             // 
-            this.btnRemove.Location = new System.Drawing.Point(105, 112);
+            this.btnRemove.Location = new System.Drawing.Point(105, 135);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(75, 35);
             this.btnRemove.TabIndex = 5;
@@ -85,12 +86,13 @@
             // 
             // btnNewEntry
             // 
-            this.btnNewEntry.Location = new System.Drawing.Point(197, 113);
+            this.btnNewEntry.Location = new System.Drawing.Point(197, 136);
             this.btnNewEntry.Name = "btnNewEntry";
             this.btnNewEntry.Size = new System.Drawing.Size(75, 35);
             this.btnNewEntry.TabIndex = 6;
             this.btnNewEntry.Text = "Add &New Entry";
             this.btnNewEntry.UseVisualStyleBackColor = true;
+            this.btnNewEntry.Click += new System.EventHandler(this.btnNewEntry_Click);
             // 
             // btnNextTurn
             // 
@@ -129,12 +131,22 @@
             this.label3.TabIndex = 10;
             this.label3.Text = "Effects";
             // 
+            // btnSelectAll
+            // 
+            this.btnSelectAll.Location = new System.Drawing.Point(12, 22);
+            this.btnSelectAll.Name = "btnSelectAll";
+            this.btnSelectAll.Size = new System.Drawing.Size(75, 23);
+            this.btnSelectAll.TabIndex = 11;
+            this.btnSelectAll.Text = "Select All";
+            this.btnSelectAll.UseVisualStyleBackColor = true;
+            // 
             // frmInitTrack
             // 
             this.AcceptButton = this.btnNextTurn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btnSelectAll);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -162,5 +174,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnSelectAll;
     }
 }

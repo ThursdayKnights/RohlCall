@@ -58,6 +58,18 @@
     <Compile Include="frmTKRCCharacterSheet.Designer.cs">
       <DependentUpon>frmTKRCCharacterSheet.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTKRCInitTrackAddEffect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTKRCInitTrackAddEffect.Designer.cs">
+      <DependentUpon>frmTKRCInitTrackAddEffect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTKRCInitTrackNewEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTKRCInitTrackNewEntry.Designer.cs">
+      <DependentUpon>frmTKRCInitTrackNewEntry.cs</DependentUpon>
+    </Compile>
     <Compile Include="InitTrack.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +90,12 @@
     <Compile Include="TKRCDiceRollers.cs" />
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTKRCInitTrackAddEffect.resx">
+      <DependentUpon>frmTKRCInitTrackAddEffect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTKRCInitTrackNewEntry.resx">
+      <DependentUpon>frmTKRCInitTrackNewEntry.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InitTrack.resx">
       <DependentUpon>InitTrack.cs</DependentUpon>

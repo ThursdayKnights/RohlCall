@@ -80,6 +80,11 @@ namespace RohlCall
                 lstEntries.Items.Remove(selected);
             }
         }
+
+        private void btnNewEntry_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

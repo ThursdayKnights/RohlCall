@@ -25,3 +25,5 @@ C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmInitTrack.resources
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmMainScreen.resources
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.Properties.Resources.resources
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.csproj.GenerateResource.Cache
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCInitTrackAddEffect.resources
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCInitTrackNewEntry.resources
