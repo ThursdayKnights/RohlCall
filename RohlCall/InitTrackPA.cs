@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RohlCall
 {
-    class InitTrackPA
+    public class InitTrackPA
     {
         //Author: Peter Adam
         //This class contains functions to be used in the InitTrack form
@@ -17,5 +17,7 @@ namespace RohlCall
             x++;
             return x.ToString();
         }
+
+        
     }
 }

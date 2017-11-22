@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace RohlCall
 {
-    public partial class frmInitTrack : Form
+    public partial class frmTKRCInitTrack : Form
     {
         /********************************************************************
          *  Initiative Tracker                                              *
@@ -26,37 +26,29 @@ namespace RohlCall
          *******************************************************************/
 
 
-        public frmInitTrack()
+        public frmTKRCInitTrack(bool isInitTrackOpen)
         {
             InitializeComponent();
         }
 
+        
+        public static bool isNewEntryShown = false;         //tracks if frmInitTrackNewEntry is open
+
+        //declare classes to be used
         InitTrackPA PA = new InitTrackPA();
+        frmMainScreen MainScreen = new frmMainScreen();
+
+        public void ToggleNewEntry()
+        {
+            //change isNewEntryShown to opposite value
+            isNewEntryShown = !isNewEntryShown;
+        }
 
         private void btnNextTurn_Click(object sender, EventArgs e)
         {
-            /*
-             * 
-             *  REPLACE ME WITH A "SELECT ALL" BUTTON
-             * 
-             */
+            
 
-            //select all items. If all items are selected, deselect instead
-            bool areAllSelected = false;
-
-            for (int i = 0; i < lstEntries.Items.Count; i++)
-            {
-                if (!lstEntries.GetItemChecked(i))
-                {
-                    areAllSelected = true;
-                    break;
-                }
-            }
-
-            for (int i = 0; i < lstEntries.Items.Count; i++)
-            {
-                lstEntries.SetItemChecked(i, areAllSelected);
-            }
+          
 
 
         }
@@ -83,7 +75,40 @@ namespace RohlCall
 
         private void btnNewEntry_Click(object sender, EventArgs e)
         {
+            //show New Entry Dialogue
+            if (!isNewEntryShown)
+            {
+                frmTKRCInitTrackNewEntry frm = new RohlCall.frmTKRCInitTrackNewEntry(isNewEntryShown);
+                frm.Show();
+                ToggleNewEntry();       //Declares frmInitTrackNewEntry is open
+            }
+            
+        }
 
+        private void btnSelectAll_Click(object sender, EventArgs e)
+        {
+            //select all items. If all items are selected, deselect instead
+            bool areAllSelected = false;
+
+            for (int i = 0; i < lstEntries.Items.Count; i++)
+            {
+                if (!lstEntries.GetItemChecked(i))
+                {
+                    areAllSelected = true;
+                    break;
+                }
+            }
+
+            for (int i = 0; i < lstEntries.Items.Count; i++)
+            {
+                lstEntries.SetItemChecked(i, areAllSelected);
+            }
+        }
+
+        private void frmTKRCInitTrack_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            //allow form to be opened again after closing
+            MainScreen.ToggleInitTrack();
         }
     }
 

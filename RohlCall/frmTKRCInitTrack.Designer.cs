@@ -1,6 +1,6 @@
 ﻿namespace RohlCall
 {
-    partial class frmInitTrack
+    partial class frmTKRCInitTrack
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lstEntries = new System.Windows.Forms.CheckedListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnRemove = new System.Windows.Forms.Button();
@@ -38,21 +37,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnSelectAll = new System.Windows.Forms.Button();
+            this.lstEntries = new System.Windows.Forms.CheckedListBox();
             this.SuspendLayout();
-            // 
-            // lstEntries
-            // 
-            this.lstEntries.FormattingEnabled = true;
-            this.lstEntries.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "3",
-            "4"});
-            this.lstEntries.Location = new System.Drawing.Point(12, 50);
-            this.lstEntries.Name = "lstEntries";
-            this.lstEntries.Size = new System.Drawing.Size(222, 79);
-            this.lstEntries.TabIndex = 2;
             // 
             // button1
             // 
@@ -139,8 +125,23 @@
             this.btnSelectAll.TabIndex = 11;
             this.btnSelectAll.Text = "Select All";
             this.btnSelectAll.UseVisualStyleBackColor = true;
+            this.btnSelectAll.Click += new System.EventHandler(this.btnSelectAll_Click);
             // 
-            // frmInitTrack
+            // lstEntries
+            // 
+            this.lstEntries.FormattingEnabled = true;
+            this.lstEntries.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "3",
+            "4"});
+            this.lstEntries.Location = new System.Drawing.Point(12, 50);
+            this.lstEntries.Name = "lstEntries";
+            this.lstEntries.Size = new System.Drawing.Size(222, 79);
+            this.lstEntries.TabIndex = 2;
+            // 
+            // frmTKRCInitTrack
             // 
             this.AcceptButton = this.btnNextTurn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -156,16 +157,15 @@
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lstEntries);
-            this.Name = "frmInitTrack";
+            this.Name = "frmTKRCInitTrack";
             this.Text = "Initiative Tracker";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmTKRCInitTrack_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.CheckedListBox lstEntries;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnRemove;
@@ -175,5 +175,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnSelectAll;
+        private System.Windows.Forms.CheckedListBox lstEntries;
     }
 }

@@ -70,11 +70,11 @@
     <Compile Include="frmTKRCInitTrackNewEntry.Designer.cs">
       <DependentUpon>frmTKRCInitTrackNewEntry.cs</DependentUpon>
     </Compile>
-    <Compile Include="InitTrack.cs">
+    <Compile Include="frmTKRCInitTrack.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InitTrack.Designer.cs">
-      <DependentUpon>InitTrack.cs</DependentUpon>
+    <Compile Include="frmTKRCInitTrack.Designer.cs">
+      <DependentUpon>frmTKRCInitTrack.cs</DependentUpon>
     </Compile>
     <Compile Include="InitTrackPA.cs" />
     <Compile Include="TestPA.cs" />
@@ -97,8 +97,8 @@
     <EmbeddedResource Include="frmTKRCInitTrackNewEntry.resx">
       <DependentUpon>frmTKRCInitTrackNewEntry.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InitTrack.resx">
-      <DependentUpon>InitTrack.cs</DependentUpon>
+    <EmbeddedResource Include="frmTKRCInitTrack.resx">
+      <DependentUpon>frmTKRCInitTrack.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>

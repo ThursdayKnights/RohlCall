@@ -21,9 +21,9 @@ C:\ThursdayKnights\RohlCall\RohlCall\bin\Debug\RohlCall.exe
 C:\ThursdayKnights\RohlCall\RohlCall\bin\Debug\RohlCall.pdb
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.csprojResolveAssemblyReference.cache
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.AboutBox1.resources
-C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmInitTrack.resources
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmMainScreen.resources
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.Properties.Resources.resources
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.csproj.GenerateResource.Cache
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCInitTrackAddEffect.resources
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCInitTrackNewEntry.resources
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCInitTrack.resources

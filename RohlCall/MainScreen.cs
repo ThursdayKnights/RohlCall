@@ -24,8 +24,14 @@ namespace RohlCall
             //Open About Box
             AboutBox1 frm = new AboutBox1();
             frm.Show();
-            
-            
+        }
+
+        public static bool isInitTrackOpen = false;     //tracks if frmInitTrack is open
+
+        public void ToggleInitTrack()
+        {
+            //Toggle isInitTrackOpen
+            isInitTrackOpen = !isInitTrackOpen;
         }
 
         //Debug button, necessary for beta.
@@ -37,8 +43,12 @@ namespace RohlCall
         private void btnInitTrack_Click(object sender, EventArgs e)
         {
             //Open Initiative Tracker
-            frmInitTrack frm = new RohlCall.frmInitTrack();
-            frm.Show();
+            if (!isInitTrackOpen)
+            {
+                frmTKRCInitTrack frm = new RohlCall.frmTKRCInitTrack(isInitTrackOpen);
+                ToggleInitTrack();
+                frm.Show();
+            }
         }
 
         private void btnCharSheet_Click(object sender, EventArgs e)

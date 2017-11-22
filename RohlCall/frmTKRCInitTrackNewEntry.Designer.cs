@@ -91,6 +91,7 @@
             this.btnCancel.TabIndex = 5;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // label2
             // 
@@ -123,6 +124,7 @@
             this.Controls.Add(this.cboEntry);
             this.Name = "frmTKRCInitTrackNewEntry";
             this.Text = "Initiative Tracker - New Entry";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmTKRCInitTrackNewEntry_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
