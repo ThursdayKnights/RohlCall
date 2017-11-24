@@ -160,6 +160,7 @@
             this.Name = "frmTKRCInitTrack";
             this.Text = "Initiative Tracker";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmTKRCInitTrack_FormClosing);
+            this.Load += new System.EventHandler(this.frmTKRCInitTrack_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

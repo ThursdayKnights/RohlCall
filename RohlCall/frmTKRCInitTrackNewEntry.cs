@@ -12,7 +12,7 @@ namespace RohlCall
 {
     public partial class frmTKRCInitTrackNewEntry : Form
     {
-        public frmTKRCInitTrackNewEntry(bool isFormShown)
+        public frmTKRCInitTrackNewEntry(bool isFormShown, string[] entriesList)
         {
             InitializeComponent();
         }
@@ -31,6 +31,43 @@ namespace RohlCall
         {
             //call ToggleNewEntry to allow the form to be opened again
             frmInitTrack.ToggleNewEntry();
+            frmTKRCInitTrack.entriesList = new string[cboEntry.Items.Count];
+            int i = 0;
+            foreach (string item in cboEntry.Items)
+            {
+                frmTKRCInitTrack.entriesList[i] = item;
+                i++;
+            }
+
+        }
+
+        private void btnAddEntry_Click(object sender, EventArgs e)
+        {
+            //Adds entry to InitTrack listbox
+            string name = cboEntry.Text;
+            int init;
+            if (!int.TryParse(txtInit.Text, out init))  //Invalid input
+            {
+                MessageBox.Show("Please enter a valid number", "Missing Input");
+            }
+            else
+            {
+                if (chkSave.Checked
+                    && !cboEntry.Items.Contains(cboEntry.Text))
+                    {
+                        cboEntry.Items.Add(cboEntry.Text);
+                    }
+            }
+
+        }
+
+        private void frmTKRCInitTrackNewEntry_Load(object sender, EventArgs e)
+        {
+            //populate drop-down with saved entries
+            foreach (string item in frmTKRCInitTrack.entriesList)
+            {
+                cboEntry.Items.Add(item);
+            }
         }
     }
 }

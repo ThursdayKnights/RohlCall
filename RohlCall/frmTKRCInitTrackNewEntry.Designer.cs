@@ -44,6 +44,7 @@
             this.cboEntry.Location = new System.Drawing.Point(56, 16);
             this.cboEntry.Name = "cboEntry";
             this.cboEntry.Size = new System.Drawing.Size(121, 21);
+            this.cboEntry.Sorted = true;
             this.cboEntry.TabIndex = 0;
             // 
             // label1
@@ -61,7 +62,7 @@
             this.chkSave.Location = new System.Drawing.Point(197, 20);
             this.chkSave.Name = "chkSave";
             this.chkSave.Size = new System.Drawing.Size(51, 17);
-            this.chkSave.TabIndex = 2;
+            this.chkSave.TabIndex = 1;
             this.chkSave.Text = "Save";
             this.chkSave.UseVisualStyleBackColor = true;
             // 
@@ -73,6 +74,7 @@
             this.btnAddEntry.TabIndex = 3;
             this.btnAddEntry.Text = "Add Entry";
             this.btnAddEntry.UseVisualStyleBackColor = true;
+            this.btnAddEntry.Click += new System.EventHandler(this.btnAddEntry_Click);
             // 
             // btnAddMore
             // 
@@ -107,7 +109,7 @@
             this.txtInit.Location = new System.Drawing.Point(77, 50);
             this.txtInit.Name = "txtInit";
             this.txtInit.Size = new System.Drawing.Size(100, 20);
-            this.txtInit.TabIndex = 7;
+            this.txtInit.TabIndex = 2;
             // 
             // frmTKRCInitTrackNewEntry
             // 
@@ -125,6 +127,7 @@
             this.Name = "frmTKRCInitTrackNewEntry";
             this.Text = "Initiative Tracker - New Entry";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmTKRCInitTrackNewEntry_FormClosing);
+            this.Load += new System.EventHandler(this.frmTKRCInitTrackNewEntry_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

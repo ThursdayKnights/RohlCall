@@ -33,10 +33,12 @@ namespace RohlCall
 
         
         public static bool isNewEntryShown = false;         //tracks if frmInitTrackNewEntry is open
+        public static string[] entriesList = new string[] {"Hazard", "Monster", "NPC"};
 
         //declare classes to be used
         InitTrackPA PA = new InitTrackPA();
         frmMainScreen MainScreen = new frmMainScreen();
+        
 
         public void ToggleNewEntry()
         {
@@ -78,8 +80,8 @@ namespace RohlCall
             //show New Entry Dialogue
             if (!isNewEntryShown)
             {
-                frmTKRCInitTrackNewEntry frm = new RohlCall.frmTKRCInitTrackNewEntry(isNewEntryShown);
-                frm.Show();
+                frmTKRCInitTrackNewEntry frmNewEntry = new frmTKRCInitTrackNewEntry(isNewEntryShown, entriesList);
+                frmNewEntry.Show();
                 ToggleNewEntry();       //Declares frmInitTrackNewEntry is open
             }
             
@@ -109,6 +111,11 @@ namespace RohlCall
         {
             //allow form to be opened again after closing
             MainScreen.ToggleInitTrack();
+        }
+
+        private void frmTKRCInitTrack_Load(object sender, EventArgs e)
+        {
+
         }
     }
 
