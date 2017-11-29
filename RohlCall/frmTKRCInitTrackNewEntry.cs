@@ -67,6 +67,7 @@ namespace RohlCall
             foreach (string item in frmTKRCInitTrack.entriesList)
             {
                 cboEntry.Items.Add(item);
+                
             }
         }
     }

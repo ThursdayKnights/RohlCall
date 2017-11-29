@@ -81,7 +81,7 @@ namespace RohlCall
             if (!isNewEntryShown)
             {
                 frmTKRCInitTrackNewEntry frmNewEntry = new frmTKRCInitTrackNewEntry(isNewEntryShown, entriesList);
-                frmNewEntry.Show();
+                frmNewEntry.ShowDialog();
                 ToggleNewEntry();       //Declares frmInitTrackNewEntry is open
             }
             

@@ -158,6 +158,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lstEntries);
             this.Name = "frmTKRCInitTrack";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Initiative Tracker";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmTKRCInitTrack_FormClosing);
             this.Load += new System.EventHandler(this.frmTKRCInitTrack_Load);

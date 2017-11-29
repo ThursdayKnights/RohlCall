@@ -166,6 +166,7 @@
             this.Controls.Add(this.cboEffect);
             this.Controls.Add(this.label1);
             this.Name = "frmTKRCInitTrackAddEffect";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Initiative Tracker - Add Effect";
             ((System.ComponentModel.ISupportInitialize)(this.nudRounds)).EndInit();
             this.ResumeLayout(false);

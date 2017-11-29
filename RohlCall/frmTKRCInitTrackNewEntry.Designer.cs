@@ -125,6 +125,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cboEntry);
             this.Name = "frmTKRCInitTrackNewEntry";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Initiative Tracker - New Entry";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmTKRCInitTrackNewEntry_FormClosing);
             this.Load += new System.EventHandler(this.frmTKRCInitTrackNewEntry_Load);
