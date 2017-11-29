@@ -12,7 +12,7 @@ namespace RohlCall
 
         /*
          * Owner: Thursday Knights,
-         * Authors: Christopher Rupert, Peter Adam
+         * Authors: Christopher Rupert, Peter Adam, Gerry Vautour
          * Description: This DLL will be used for rolling stat dice and keeping track
          * of other random integer uses.
          */

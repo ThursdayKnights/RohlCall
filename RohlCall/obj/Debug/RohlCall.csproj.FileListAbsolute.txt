@@ -8,3 +8,22 @@ C:\Data\Term 1\C#\Projects\RohlCall\RohlCall\obj\Debug\RohlCall.csproj.GenerateR
 C:\Data\Term 1\C#\Projects\RohlCall\RohlCall\obj\Debug\RohlCall.exe
 C:\Data\Term 1\C#\Projects\RohlCall\RohlCall\obj\Debug\RohlCall.pdb
 C:\Data\Term 1\C#\Projects\RohlCall\RohlCall\obj\Debug\RohlCall.AboutBox1.resources
+C:\Users\ashle\Documents\GitHub\RohlCall\RohlCall\bin\Debug\RohlCall.exe.config
+C:\Users\ashle\Documents\GitHub\RohlCall\RohlCall\obj\Debug\RohlCall.exe
+C:\Users\ashle\Documents\GitHub\RohlCall\RohlCall\obj\Debug\RohlCall.pdb
+C:\Users\Gerry\Documents\Visual Studio 2015\Projects\RohlCall\RohlCall\bin\Debug\RohlCall.exe.config
+C:\Users\Gerry\Documents\Visual Studio 2015\Projects\RohlCall\RohlCall\obj\Debug\RohlCall.exe
+C:\Users\Gerry\Documents\Visual Studio 2015\Projects\RohlCall\RohlCall\obj\Debug\RohlCall.pdb
+C:\ThursdayKnights\RohlCall\RohlCall\bin\Debug\RohlCall.exe.config
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.exe
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.pdb
+C:\ThursdayKnights\RohlCall\RohlCall\bin\Debug\RohlCall.exe
+C:\ThursdayKnights\RohlCall\RohlCall\bin\Debug\RohlCall.pdb
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.csprojResolveAssemblyReference.cache
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.AboutBox1.resources
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmMainScreen.resources
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.Properties.Resources.resources
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.csproj.GenerateResource.Cache
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCInitTrackAddEffect.resources
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCInitTrackNewEntry.resources
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCInitTrack.resources
