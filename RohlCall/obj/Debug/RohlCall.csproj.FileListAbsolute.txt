@@ -27,3 +27,6 @@ C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.csproj.GenerateResource.
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCInitTrackAddEffect.resources
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCInitTrackNewEntry.resources
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCInitTrack.resources
+C:\Thursday Knights\RohlCall\RohlCall\bin\Debug\RohlCall.exe.config
+C:\Thursday Knights\RohlCall\RohlCall\obj\Debug\RohlCall.exe
+C:\Thursday Knights\RohlCall\RohlCall\obj\Debug\RohlCall.pdb
