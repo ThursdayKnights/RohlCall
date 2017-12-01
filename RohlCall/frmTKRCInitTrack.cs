@@ -33,7 +33,8 @@ namespace RohlCall
 
         
         public static bool isNewEntryShown = false;         //tracks if frmInitTrackNewEntry is open
-        public static string[] entriesList = new string[] {"Hazard", "Monster", "NPC"};
+        public static string[] savedEntries = new string[] {"Hazard", "Monster", "NPC"};
+        public static List<string> listedEntries = new List<string>();
 
         //declare classes to be used
         InitTrackPA PA = new InitTrackPA();
@@ -44,6 +45,10 @@ namespace RohlCall
         {
             //change isNewEntryShown to opposite value
             isNewEntryShown = !isNewEntryShown;
+            if (!isNewEntryShown)
+            {
+                lstEntries.Items.Add(listedEntries[listedEntries.Count - 1]);
+            }
         }
 
         private void btnNextTurn_Click(object sender, EventArgs e)
@@ -80,7 +85,7 @@ namespace RohlCall
             //show New Entry Dialogue
             if (!isNewEntryShown)
             {
-                frmTKRCInitTrackNewEntry frmNewEntry = new frmTKRCInitTrackNewEntry(isNewEntryShown, entriesList);
+                frmTKRCInitTrackNewEntry frmNewEntry = new frmTKRCInitTrackNewEntry(isNewEntryShown, savedEntries, listedEntries);
                 frmNewEntry.ShowDialog();
                 ToggleNewEntry();       //Declares frmInitTrackNewEntry is open
             }

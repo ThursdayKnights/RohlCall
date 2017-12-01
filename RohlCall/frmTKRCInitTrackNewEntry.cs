@@ -12,13 +12,14 @@ namespace RohlCall
 {
     public partial class frmTKRCInitTrackNewEntry : Form
     {
-        public frmTKRCInitTrackNewEntry(bool isFormShown, string[] entriesList)
+        public frmTKRCInitTrackNewEntry(bool isFormShown, string[] savedEntries, object listedEntries)
         {
             InitializeComponent();
         }
 
         public static bool isValid;
         frmTKRCInitTrack frmInitTrack = new frmTKRCInitTrack(isValid);
+        
         
         public void btnCancel_Click(object sender, EventArgs e)
         {
@@ -31,11 +32,11 @@ namespace RohlCall
         {
             //call ToggleNewEntry to allow the form to be opened again
             frmInitTrack.ToggleNewEntry();
-            frmTKRCInitTrack.entriesList = new string[cboEntry.Items.Count];
+            frmTKRCInitTrack.savedEntries = new string[cboEntry.Items.Count];
             int i = 0;
             foreach (string item in cboEntry.Items)
             {
-                frmTKRCInitTrack.entriesList[i] = item;
+                frmTKRCInitTrack.savedEntries[i] = item;
                 i++;
             }
 
@@ -49,6 +50,7 @@ namespace RohlCall
             if (!int.TryParse(txtInit.Text, out init))  //Invalid input
             {
                 MessageBox.Show("Please enter a valid number", "Missing Input");
+                txtInit.Focus();
             }
             else
             {
@@ -57,6 +59,8 @@ namespace RohlCall
                     {
                         cboEntry.Items.Add(cboEntry.Text);
                     }
+                frmTKRCInitTrack.listedEntries.Add(name);
+                this.Close();
             }
 
         }
@@ -64,7 +68,7 @@ namespace RohlCall
         private void frmTKRCInitTrackNewEntry_Load(object sender, EventArgs e)
         {
             //populate drop-down with saved entries
-            foreach (string item in frmTKRCInitTrack.entriesList)
+            foreach (string item in frmTKRCInitTrack.savedEntries)
             {
                 cboEntry.Items.Add(item);
                 

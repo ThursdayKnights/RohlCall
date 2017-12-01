@@ -30,3 +30,4 @@ C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCInitTrack.resourc
 C:\Thursday Knights\RohlCall\RohlCall\bin\Debug\RohlCall.exe.config
 C:\Thursday Knights\RohlCall\RohlCall\obj\Debug\RohlCall.exe
 C:\Thursday Knights\RohlCall\RohlCall\obj\Debug\RohlCall.pdb
+C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCDiceRoller.resources
