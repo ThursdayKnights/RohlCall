@@ -62,7 +62,7 @@ namespace RohlCall
                 frmTKRCInitTrack.listedEntries.Add(name);
                 this.Close();
             }
-
+            
         }
 
         private void frmTKRCInitTrackNewEntry_Load(object sender, EventArgs e)

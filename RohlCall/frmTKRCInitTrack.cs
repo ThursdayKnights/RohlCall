@@ -47,7 +47,17 @@ namespace RohlCall
             isNewEntryShown = !isNewEntryShown;
             if (!isNewEntryShown)
             {
-                lstEntries.Items.Add(listedEntries[listedEntries.Count - 1]);
+                for (int i = listedEntries.Count - 1; i >= 0; i--)
+                {
+                    if (!lstEntries.Items.Contains(listedEntries[i]))
+                    {
+                        lstEntries.Items.Add(listedEntries[i]);
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
             }
         }
 
@@ -77,6 +87,7 @@ namespace RohlCall
             foreach (object selected in lstEntries.CheckedItems.OfType<string>().ToList())
             {
                 lstEntries.Items.Remove(selected);
+                listedEntries.Remove(Convert.ToString(selected));
             }
         }
 
