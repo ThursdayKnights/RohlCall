@@ -57,5 +57,12 @@ namespace RohlCall
             frmTKRCCharacterSheet frm = new frmTKRCCharacterSheet();
             frm.Show();
         }
+
+        private void btnDiceRoller_Click(object sender, EventArgs e)
+        {
+            //Open dice roller
+            frmTKRCDiceRoller frm = new frmTKRCDiceRoller();
+            frm.Show();
+        }
     }
 }

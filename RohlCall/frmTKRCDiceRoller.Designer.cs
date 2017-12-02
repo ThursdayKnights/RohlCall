@@ -77,7 +77,7 @@
             this.nudDXMod1 = new System.Windows.Forms.NumericUpDown();
             this.nudDXMod2 = new System.Windows.Forms.NumericUpDown();
             this.nudDXMod3 = new System.Windows.Forms.NumericUpDown();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtLog = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -97,7 +97,7 @@
             this.lblCustomSum1 = new System.Windows.Forms.Label();
             this.lblCustomSum2 = new System.Windows.Forms.Label();
             this.lblCustomSum3 = new System.Windows.Forms.Label();
-            this.lblSumD20 = new System.Windows.Forms.Label();
+            this.lblD20Sum = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.nudD20Mod = new System.Windows.Forms.NumericUpDown();
             this.btnRollD20 = new System.Windows.Forms.Button();
@@ -223,11 +223,6 @@
             // 
             this.nudD4.Location = new System.Drawing.Point(281, 32);
             this.nudD4.Margin = new System.Windows.Forms.Padding(4);
-            this.nudD4.Maximum = new decimal(new int[] {
-            800,
-            0,
-            0,
-            0});
             this.nudD4.Minimum = new decimal(new int[] {
             1,
             0,
@@ -360,6 +355,7 @@
             this.btnRollD4.TabIndex = 21;
             this.btnRollD4.Text = "Roll";
             this.btnRollD4.UseVisualStyleBackColor = true;
+            this.btnRollD4.Click += new System.EventHandler(this.btnRollD4_Click);
             // 
             // btnRollD6
             // 
@@ -369,6 +365,7 @@
             this.btnRollD6.TabIndex = 22;
             this.btnRollD6.Text = "Roll";
             this.btnRollD6.UseVisualStyleBackColor = true;
+            this.btnRollD6.Click += new System.EventHandler(this.btnRollD6_Click);
             // 
             // btnRollD8
             // 
@@ -378,6 +375,7 @@
             this.btnRollD8.TabIndex = 23;
             this.btnRollD8.Text = "Roll";
             this.btnRollD8.UseVisualStyleBackColor = true;
+            this.btnRollD8.Click += new System.EventHandler(this.btnRollD8_Click);
             // 
             // btnRollD10
             // 
@@ -387,6 +385,7 @@
             this.btnRollD10.TabIndex = 24;
             this.btnRollD10.Text = "Roll";
             this.btnRollD10.UseVisualStyleBackColor = true;
+            this.btnRollD10.Click += new System.EventHandler(this.btnRollD10_Click);
             // 
             // btnRollD12
             // 
@@ -396,6 +395,7 @@
             this.btnRollD12.TabIndex = 25;
             this.btnRollD12.Text = "Roll";
             this.btnRollD12.UseVisualStyleBackColor = true;
+            this.btnRollD12.Click += new System.EventHandler(this.btnRollD12_Click);
             // 
             // btnRollCustom1
             // 
@@ -405,6 +405,7 @@
             this.btnRollCustom1.TabIndex = 26;
             this.btnRollCustom1.Text = "Roll";
             this.btnRollCustom1.UseVisualStyleBackColor = true;
+            this.btnRollCustom1.Click += new System.EventHandler(this.btnRollCustom1_Click);
             // 
             // btnRollCustom2
             // 
@@ -414,6 +415,7 @@
             this.btnRollCustom2.TabIndex = 27;
             this.btnRollCustom2.Text = "Roll";
             this.btnRollCustom2.UseVisualStyleBackColor = true;
+            this.btnRollCustom2.Click += new System.EventHandler(this.btnRollCustom2_Click);
             // 
             // btnRollCustom3
             // 
@@ -423,6 +425,7 @@
             this.btnRollCustom3.TabIndex = 28;
             this.btnRollCustom3.Text = "Roll";
             this.btnRollCustom3.UseVisualStyleBackColor = true;
+            this.btnRollCustom3.Click += new System.EventHandler(this.btnRollCustom3_Click);
             // 
             // cboCustom1
             // 
@@ -522,6 +525,7 @@
             this.btnRollD100.TabIndex = 41;
             this.btnRollD100.Text = "Roll";
             this.btnRollD100.UseVisualStyleBackColor = true;
+            this.btnRollD100.Click += new System.EventHandler(this.btnRollD100_Click);
             // 
             // nudD100
             // 
@@ -564,27 +568,82 @@
             // nudDX1
             // 
             this.nudDX1.Location = new System.Drawing.Point(356, 319);
+            this.nudDX1.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.nudDX1.Minimum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
             this.nudDX1.Name = "nudDX1";
             this.nudDX1.Size = new System.Drawing.Size(57, 22);
             this.nudDX1.TabIndex = 43;
+            this.nudDX1.Value = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
             // 
             // nudDX2
             // 
             this.nudDX2.Location = new System.Drawing.Point(356, 360);
+            this.nudDX2.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.nudDX2.Minimum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
             this.nudDX2.Name = "nudDX2";
             this.nudDX2.Size = new System.Drawing.Size(57, 22);
             this.nudDX2.TabIndex = 44;
+            this.nudDX2.Value = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
             // 
             // nudDX3
             // 
             this.nudDX3.Location = new System.Drawing.Point(356, 401);
+            this.nudDX3.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.nudDX3.Minimum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
             this.nudDX3.Name = "nudDX3";
             this.nudDX3.Size = new System.Drawing.Size(57, 22);
             this.nudDX3.TabIndex = 45;
+            this.nudDX3.Value = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
             // 
             // nudD4Mod
             // 
             this.nudD4Mod.Location = new System.Drawing.Point(454, 32);
+            this.nudD4Mod.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.nudD4Mod.Minimum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            -2147483648});
             this.nudD4Mod.Name = "nudD4Mod";
             this.nudD4Mod.Size = new System.Drawing.Size(48, 22);
             this.nudD4Mod.TabIndex = 46;
@@ -592,6 +651,16 @@
             // nudD6Mod
             // 
             this.nudD6Mod.Location = new System.Drawing.Point(454, 73);
+            this.nudD6Mod.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.nudD6Mod.Minimum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            -2147483648});
             this.nudD6Mod.Name = "nudD6Mod";
             this.nudD6Mod.Size = new System.Drawing.Size(48, 22);
             this.nudD6Mod.TabIndex = 47;
@@ -599,6 +668,16 @@
             // nudD8Mod
             // 
             this.nudD8Mod.Location = new System.Drawing.Point(454, 114);
+            this.nudD8Mod.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.nudD8Mod.Minimum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            -2147483648});
             this.nudD8Mod.Name = "nudD8Mod";
             this.nudD8Mod.Size = new System.Drawing.Size(48, 22);
             this.nudD8Mod.TabIndex = 48;
@@ -606,6 +685,16 @@
             // nudD10Mod
             // 
             this.nudD10Mod.Location = new System.Drawing.Point(454, 155);
+            this.nudD10Mod.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.nudD10Mod.Minimum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            -2147483648});
             this.nudD10Mod.Name = "nudD10Mod";
             this.nudD10Mod.Size = new System.Drawing.Size(48, 22);
             this.nudD10Mod.TabIndex = 49;
@@ -613,6 +702,16 @@
             // nudD12Mod
             // 
             this.nudD12Mod.Location = new System.Drawing.Point(454, 196);
+            this.nudD12Mod.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.nudD12Mod.Minimum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            -2147483648});
             this.nudD12Mod.Name = "nudD12Mod";
             this.nudD12Mod.Size = new System.Drawing.Size(48, 22);
             this.nudD12Mod.TabIndex = 50;
@@ -620,6 +719,16 @@
             // nudD100Mod
             // 
             this.nudD100Mod.Location = new System.Drawing.Point(454, 278);
+            this.nudD100Mod.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.nudD100Mod.Minimum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            -2147483648});
             this.nudD100Mod.Name = "nudD100Mod";
             this.nudD100Mod.Size = new System.Drawing.Size(48, 22);
             this.nudD100Mod.TabIndex = 51;
@@ -627,6 +736,16 @@
             // nudDXMod1
             // 
             this.nudDXMod1.Location = new System.Drawing.Point(454, 319);
+            this.nudDXMod1.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.nudDXMod1.Minimum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            -2147483648});
             this.nudDXMod1.Name = "nudDXMod1";
             this.nudDXMod1.Size = new System.Drawing.Size(48, 22);
             this.nudDXMod1.TabIndex = 52;
@@ -634,6 +753,16 @@
             // nudDXMod2
             // 
             this.nudDXMod2.Location = new System.Drawing.Point(454, 360);
+            this.nudDXMod2.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.nudDXMod2.Minimum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            -2147483648});
             this.nudDXMod2.Name = "nudDXMod2";
             this.nudDXMod2.Size = new System.Drawing.Size(48, 22);
             this.nudDXMod2.TabIndex = 53;
@@ -641,19 +770,29 @@
             // nudDXMod3
             // 
             this.nudDXMod3.Location = new System.Drawing.Point(454, 401);
+            this.nudDXMod3.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.nudDXMod3.Minimum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            -2147483648});
             this.nudDXMod3.Name = "nudDXMod3";
             this.nudDXMod3.Size = new System.Drawing.Size(48, 22);
             this.nudDXMod3.TabIndex = 54;
             // 
-            // textBox1
+            // txtLog
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 34);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(183, 266);
-            this.textBox1.TabIndex = 55;
+            this.txtLog.Location = new System.Drawing.Point(12, 34);
+            this.txtLog.Multiline = true;
+            this.txtLog.Name = "txtLog";
+            this.txtLog.ReadOnly = true;
+            this.txtLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtLog.Size = new System.Drawing.Size(183, 266);
+            this.txtLog.TabIndex = 55;
             // 
             // label14
             // 
@@ -817,13 +956,13 @@
             this.lblCustomSum3.Size = new System.Drawing.Size(48, 22);
             this.lblCustomSum3.TabIndex = 75;
             // 
-            // lblSumD20
+            // lblD20Sum
             // 
-            this.lblSumD20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblSumD20.Location = new System.Drawing.Point(519, 237);
-            this.lblSumD20.Name = "lblSumD20";
-            this.lblSumD20.Size = new System.Drawing.Size(48, 22);
-            this.lblSumD20.TabIndex = 81;
+            this.lblD20Sum.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblD20Sum.Location = new System.Drawing.Point(519, 237);
+            this.lblD20Sum.Name = "lblD20Sum";
+            this.lblD20Sum.Size = new System.Drawing.Size(48, 22);
+            this.lblD20Sum.TabIndex = 81;
             // 
             // label25
             // 
@@ -837,6 +976,16 @@
             // nudD20Mod
             // 
             this.nudD20Mod.Location = new System.Drawing.Point(454, 237);
+            this.nudD20Mod.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.nudD20Mod.Minimum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            -2147483648});
             this.nudD20Mod.Name = "nudD20Mod";
             this.nudD20Mod.Size = new System.Drawing.Size(48, 22);
             this.nudD20Mod.TabIndex = 79;
@@ -849,6 +998,7 @@
             this.btnRollD20.TabIndex = 78;
             this.btnRollD20.Text = "Roll";
             this.btnRollD20.UseVisualStyleBackColor = true;
+            this.btnRollD20.Click += new System.EventHandler(this.btnRollD20_Click);
             // 
             // nudD20
             // 
@@ -886,6 +1036,7 @@
             this.btnClearLog.TabIndex = 82;
             this.btnClearLog.Text = "Reset Log";
             this.btnClearLog.UseVisualStyleBackColor = true;
+            this.btnClearLog.Click += new System.EventHandler(this.btnClearLog_Click);
             // 
             // frmTKRCDiceRoller
             // 
@@ -893,7 +1044,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(588, 451);
             this.Controls.Add(this.btnClearLog);
-            this.Controls.Add(this.lblSumD20);
+            this.Controls.Add(this.lblD20Sum);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.nudD20Mod);
             this.Controls.Add(this.btnRollD20);
@@ -918,7 +1069,7 @@
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtLog);
             this.Controls.Add(this.nudDXMod3);
             this.Controls.Add(this.nudDXMod2);
             this.Controls.Add(this.nudDXMod1);
@@ -1052,7 +1203,7 @@
         private System.Windows.Forms.NumericUpDown nudDXMod1;
         private System.Windows.Forms.NumericUpDown nudDXMod2;
         private System.Windows.Forms.NumericUpDown nudDXMod3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtLog;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
@@ -1072,7 +1223,7 @@
         private System.Windows.Forms.Label lblCustomSum1;
         private System.Windows.Forms.Label lblCustomSum2;
         private System.Windows.Forms.Label lblCustomSum3;
-        private System.Windows.Forms.Label lblSumD20;
+        private System.Windows.Forms.Label lblD20Sum;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.NumericUpDown nudD20Mod;
         private System.Windows.Forms.Button btnRollD20;

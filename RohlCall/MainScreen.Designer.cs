@@ -35,6 +35,7 @@
             this.debugToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnInitTrack = new System.Windows.Forms.Button();
             this.btnCharSheet = new System.Windows.Forms.Button();
+            this.btnDiceRoller = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -98,11 +99,22 @@
             this.btnCharSheet.UseVisualStyleBackColor = true;
             this.btnCharSheet.Click += new System.EventHandler(this.btnCharSheet_Click);
             // 
+            // btnDiceRoller
+            // 
+            this.btnDiceRoller.Location = new System.Drawing.Point(13, 101);
+            this.btnDiceRoller.Name = "btnDiceRoller";
+            this.btnDiceRoller.Size = new System.Drawing.Size(75, 35);
+            this.btnDiceRoller.TabIndex = 3;
+            this.btnDiceRoller.Text = "Dice Roller";
+            this.btnDiceRoller.UseVisualStyleBackColor = true;
+            this.btnDiceRoller.Click += new System.EventHandler(this.btnDiceRoller_Click);
+            // 
             // frmMainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(833, 374);
+            this.Controls.Add(this.btnDiceRoller);
             this.Controls.Add(this.btnCharSheet);
             this.Controls.Add(this.btnInitTrack);
             this.Controls.Add(this.menuStrip1);
@@ -126,6 +138,7 @@
         private System.Windows.Forms.ToolStripMenuItem debugToolStripMenuItem;
         private System.Windows.Forms.Button btnInitTrack;
         private System.Windows.Forms.Button btnCharSheet;
+        private System.Windows.Forms.Button btnDiceRoller;
     }
 }
 

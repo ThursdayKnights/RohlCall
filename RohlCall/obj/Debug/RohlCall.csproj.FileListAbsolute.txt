@@ -31,3 +31,14 @@ C:\Thursday Knights\RohlCall\RohlCall\bin\Debug\RohlCall.exe.config
 C:\Thursday Knights\RohlCall\RohlCall\obj\Debug\RohlCall.exe
 C:\Thursday Knights\RohlCall\RohlCall\obj\Debug\RohlCall.pdb
 C:\ThursdayKnights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCDiceRoller.resources
+C:\Thursday Knights\RohlCall\RohlCall\bin\Debug\RohlCall.exe
+C:\Thursday Knights\RohlCall\RohlCall\bin\Debug\RohlCall.pdb
+C:\Thursday Knights\RohlCall\RohlCall\obj\Debug\RohlCall.csprojResolveAssemblyReference.cache
+C:\Thursday Knights\RohlCall\RohlCall\obj\Debug\RohlCall.AboutBox1.resources
+C:\Thursday Knights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCDiceRoller.resources
+C:\Thursday Knights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCInitTrackAddEffect.resources
+C:\Thursday Knights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCInitTrackNewEntry.resources
+C:\Thursday Knights\RohlCall\RohlCall\obj\Debug\RohlCall.frmTKRCInitTrack.resources
+C:\Thursday Knights\RohlCall\RohlCall\obj\Debug\RohlCall.frmMainScreen.resources
+C:\Thursday Knights\RohlCall\RohlCall\obj\Debug\RohlCall.Properties.Resources.resources
+C:\Thursday Knights\RohlCall\RohlCall\obj\Debug\RohlCall.csproj.GenerateResource.Cache
