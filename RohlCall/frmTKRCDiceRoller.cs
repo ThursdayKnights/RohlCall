@@ -286,5 +286,235 @@ namespace RohlCall
         {
             EnableSave3();
         }
+
+        private void nudD6_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudD6.Text, out num))
+            {
+                nudD6.Text = nudD6.Value.ToString();
+            }
+        }
+
+        private void nudD4_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudD4.Text, out num))
+            {
+                nudD4.Text = nudD4.Value.ToString();
+            }
+        }
+
+        private void nudD8_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudD8.Text, out num))
+            {
+                nudD8.Text = nudD8.Value.ToString();
+            }
+        }
+
+        private void nudD10_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudD10.Text, out num))
+            {
+                nudD10.Text = nudD10.Value.ToString();
+            }
+        }
+
+        private void nudD12_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudD12.Text, out num))
+            {
+                nudD12.Text = nudD12.Value.ToString();
+            }
+        }
+
+        private void nudD20_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudD20.Text, out num))
+            {
+                nudD20.Text = nudD20.Value.ToString();
+            }
+        }
+
+        private void nudD100_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudD100.Text, out num))
+            {
+                nudD100.Text = nudD100.Value.ToString();
+            }
+        }
+
+        private void nudCustom1_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudCustom1.Text, out num))
+            {
+                nudCustom1.Text = nudCustom1.Value.ToString();
+            }
+        }
+
+        private void nudCustom2_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudCustom2.Text, out num))
+            {
+                nudCustom2.Text = nudCustom2.Value.ToString();
+            }
+        }
+
+        private void nudCustom3_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudCustom3.Text, out num))
+            {
+                nudCustom3.Text = nudCustom3.Value.ToString();
+            }
+        }
+
+        private void nudDX1_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudDX1.Text, out num))
+            {
+                nudDX1.Text = nudDX1.Value.ToString();
+            }
+        }
+
+        private void nudDX2_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudDX2.Text, out num))
+            {
+                nudDX2.Text = nudDX2.Value.ToString();
+            }
+        }
+
+        private void nudDX3_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudDX3.Text, out num))
+            {
+                nudDX3.Text = nudDX3.Value.ToString();
+            }
+        }
+
+        private void nudD4Mod_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudD4Mod.Text, out num))
+            {
+                nudD4Mod.Text = nudD4Mod.Value.ToString();
+            }
+        }
+
+        private void nudD6Mod_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudD6Mod.Text, out num))
+            {
+                nudD6Mod.Text = nudD6Mod.Value.ToString();
+            }
+        }
+
+        private void nudD8Mod_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudD8Mod.Text, out num))
+            {
+                nudD8Mod.Text = nudD8Mod.Value.ToString();
+            }
+        }
+
+        private void nudD10Mod_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudD10Mod.Text, out num))
+            {
+                nudD10Mod.Text = nudD10Mod.Value.ToString();
+            }
+        }
+
+        private void nudD12Mod_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudD12Mod.Text, out num))
+            {
+                nudD12Mod.Text = nudD12Mod.Value.ToString();
+            }
+        }
+
+        private void nudD20Mod_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudD20Mod.Text, out num))
+            {
+                nudD20Mod.Text = nudD20Mod.Value.ToString();
+            }
+        }
+
+        private void nudD100Mod_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudD100Mod.Text, out num))
+            {
+                nudD100Mod.Text = nudD100Mod.Value.ToString();
+            }
+        }
+
+        private void nudDXMod1_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudDXMod1.Text, out num))
+            {
+                nudDXMod1.Text = nudDXMod1.Value.ToString();
+            }
+        }
+
+        private void nudDXMod2_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudDXMod2.Text, out num))
+            {
+                nudDXMod2.Text = nudDXMod2.Value.ToString();
+            }
+        }
+
+        private void nudDXMod3_Leave(object sender, EventArgs e)
+        {
+            //disallow blank fields
+            decimal num;
+            if (!decimal.TryParse(nudDXMod3.Text, out num))
+            {
+                nudDXMod3.Text = nudDXMod3.Value.ToString();
+            }
+        }
     }
 }

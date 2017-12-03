@@ -236,6 +236,7 @@
             0,
             0,
             0});
+            this.nudD4.Leave += new System.EventHandler(this.nudD4_Leave);
             // 
             // nudD6
             // 
@@ -254,6 +255,7 @@
             0,
             0,
             0});
+            this.nudD6.Leave += new System.EventHandler(this.nudD6_Leave);
             // 
             // nudD8
             // 
@@ -272,6 +274,7 @@
             0,
             0,
             0});
+            this.nudD8.Leave += new System.EventHandler(this.nudD8_Leave);
             // 
             // nudD10
             // 
@@ -290,6 +293,7 @@
             0,
             0,
             0});
+            this.nudD10.Leave += new System.EventHandler(this.nudD10_Leave);
             // 
             // nudD12
             // 
@@ -308,6 +312,7 @@
             0,
             0,
             0});
+            this.nudD12.Leave += new System.EventHandler(this.nudD12_Leave);
             // 
             // nudCustom1
             // 
@@ -326,6 +331,7 @@
             0,
             0,
             0});
+            this.nudCustom1.Leave += new System.EventHandler(this.nudCustom1_Leave);
             // 
             // label11
             // 
@@ -507,6 +513,7 @@
             0,
             0,
             0});
+            this.nudCustom2.Leave += new System.EventHandler(this.nudCustom2_Leave);
             // 
             // nudCustom3
             // 
@@ -525,6 +532,7 @@
             0,
             0,
             0});
+            this.nudCustom3.Leave += new System.EventHandler(this.nudCustom3_Leave);
             // 
             // btnRollD100
             // 
@@ -553,6 +561,7 @@
             0,
             0,
             0});
+            this.nudD100.Leave += new System.EventHandler(this.nudD100_Leave);
             // 
             // label13
             // 
@@ -595,6 +604,7 @@
             0,
             0,
             0});
+            this.nudDX1.Leave += new System.EventHandler(this.nudDX1_Leave);
             // 
             // nudDX2
             // 
@@ -617,6 +627,7 @@
             0,
             0,
             0});
+            this.nudDX2.Leave += new System.EventHandler(this.nudDX2_Leave);
             // 
             // nudDX3
             // 
@@ -639,6 +650,7 @@
             0,
             0,
             0});
+            this.nudDX3.Leave += new System.EventHandler(this.nudDX3_Leave);
             // 
             // nudD4Mod
             // 
@@ -656,6 +668,7 @@
             this.nudD4Mod.Name = "nudD4Mod";
             this.nudD4Mod.Size = new System.Drawing.Size(48, 22);
             this.nudD4Mod.TabIndex = 2;
+            this.nudD4Mod.Leave += new System.EventHandler(this.nudD4Mod_Leave);
             // 
             // nudD6Mod
             // 
@@ -673,6 +686,7 @@
             this.nudD6Mod.Name = "nudD6Mod";
             this.nudD6Mod.Size = new System.Drawing.Size(48, 22);
             this.nudD6Mod.TabIndex = 5;
+            this.nudD6Mod.Leave += new System.EventHandler(this.nudD6Mod_Leave);
             // 
             // nudD8Mod
             // 
@@ -690,6 +704,7 @@
             this.nudD8Mod.Name = "nudD8Mod";
             this.nudD8Mod.Size = new System.Drawing.Size(48, 22);
             this.nudD8Mod.TabIndex = 8;
+            this.nudD8Mod.Leave += new System.EventHandler(this.nudD8Mod_Leave);
             // 
             // nudD10Mod
             // 
@@ -707,6 +722,7 @@
             this.nudD10Mod.Name = "nudD10Mod";
             this.nudD10Mod.Size = new System.Drawing.Size(48, 22);
             this.nudD10Mod.TabIndex = 11;
+            this.nudD10Mod.Leave += new System.EventHandler(this.nudD10Mod_Leave);
             // 
             // nudD12Mod
             // 
@@ -724,6 +740,7 @@
             this.nudD12Mod.Name = "nudD12Mod";
             this.nudD12Mod.Size = new System.Drawing.Size(48, 22);
             this.nudD12Mod.TabIndex = 14;
+            this.nudD12Mod.Leave += new System.EventHandler(this.nudD12Mod_Leave);
             // 
             // nudD100Mod
             // 
@@ -741,6 +758,7 @@
             this.nudD100Mod.Name = "nudD100Mod";
             this.nudD100Mod.Size = new System.Drawing.Size(48, 22);
             this.nudD100Mod.TabIndex = 20;
+            this.nudD100Mod.Leave += new System.EventHandler(this.nudD100Mod_Leave);
             // 
             // nudDXMod1
             // 
@@ -758,6 +776,7 @@
             this.nudDXMod1.Name = "nudDXMod1";
             this.nudDXMod1.Size = new System.Drawing.Size(48, 22);
             this.nudDXMod1.TabIndex = 26;
+            this.nudDXMod1.Leave += new System.EventHandler(this.nudDXMod1_Leave);
             // 
             // nudDXMod2
             // 
@@ -775,6 +794,7 @@
             this.nudDXMod2.Name = "nudDXMod2";
             this.nudDXMod2.Size = new System.Drawing.Size(48, 22);
             this.nudDXMod2.TabIndex = 32;
+            this.nudDXMod2.Leave += new System.EventHandler(this.nudDXMod2_Leave);
             // 
             // nudDXMod3
             // 
@@ -792,6 +812,7 @@
             this.nudDXMod3.Name = "nudDXMod3";
             this.nudDXMod3.Size = new System.Drawing.Size(48, 22);
             this.nudDXMod3.TabIndex = 38;
+            this.nudDXMod3.Leave += new System.EventHandler(this.nudDXMod3_Leave);
             // 
             // txtLog
             // 
@@ -998,6 +1019,7 @@
             this.nudD20Mod.Name = "nudD20Mod";
             this.nudD20Mod.Size = new System.Drawing.Size(48, 22);
             this.nudD20Mod.TabIndex = 17;
+            this.nudD20Mod.Leave += new System.EventHandler(this.nudD20Mod_Leave);
             // 
             // btnRollD20
             // 
@@ -1026,6 +1048,7 @@
             0,
             0,
             0});
+            this.nudD20.Leave += new System.EventHandler(this.nudD20_Leave);
             // 
             // label26
             // 
