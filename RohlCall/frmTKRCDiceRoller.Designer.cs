@@ -230,7 +230,7 @@
             0});
             this.nudD4.Name = "nudD4";
             this.nudD4.Size = new System.Drawing.Size(48, 22);
-            this.nudD4.TabIndex = 11;
+            this.nudD4.TabIndex = 1;
             this.nudD4.Value = new decimal(new int[] {
             1,
             0,
@@ -248,7 +248,7 @@
             0});
             this.nudD6.Name = "nudD6";
             this.nudD6.Size = new System.Drawing.Size(48, 22);
-            this.nudD6.TabIndex = 12;
+            this.nudD6.TabIndex = 4;
             this.nudD6.Value = new decimal(new int[] {
             1,
             0,
@@ -266,7 +266,7 @@
             0});
             this.nudD8.Name = "nudD8";
             this.nudD8.Size = new System.Drawing.Size(48, 22);
-            this.nudD8.TabIndex = 13;
+            this.nudD8.TabIndex = 7;
             this.nudD8.Value = new decimal(new int[] {
             1,
             0,
@@ -284,7 +284,7 @@
             0});
             this.nudD10.Name = "nudD10";
             this.nudD10.Size = new System.Drawing.Size(48, 22);
-            this.nudD10.TabIndex = 14;
+            this.nudD10.TabIndex = 10;
             this.nudD10.Value = new decimal(new int[] {
             1,
             0,
@@ -302,7 +302,7 @@
             0});
             this.nudD12.Name = "nudD12";
             this.nudD12.Size = new System.Drawing.Size(48, 22);
-            this.nudD12.TabIndex = 15;
+            this.nudD12.TabIndex = 13;
             this.nudD12.Value = new decimal(new int[] {
             1,
             0,
@@ -320,7 +320,7 @@
             0});
             this.nudCustom1.Name = "nudCustom1";
             this.nudCustom1.Size = new System.Drawing.Size(48, 22);
-            this.nudCustom1.TabIndex = 16;
+            this.nudCustom1.TabIndex = 24;
             this.nudCustom1.Value = new decimal(new int[] {
             1,
             0,
@@ -352,7 +352,7 @@
             this.btnRollD4.Location = new System.Drawing.Point(210, 31);
             this.btnRollD4.Name = "btnRollD4";
             this.btnRollD4.Size = new System.Drawing.Size(45, 23);
-            this.btnRollD4.TabIndex = 21;
+            this.btnRollD4.TabIndex = 0;
             this.btnRollD4.Text = "Roll";
             this.btnRollD4.UseVisualStyleBackColor = true;
             this.btnRollD4.Click += new System.EventHandler(this.btnRollD4_Click);
@@ -362,7 +362,7 @@
             this.btnRollD6.Location = new System.Drawing.Point(210, 71);
             this.btnRollD6.Name = "btnRollD6";
             this.btnRollD6.Size = new System.Drawing.Size(45, 23);
-            this.btnRollD6.TabIndex = 22;
+            this.btnRollD6.TabIndex = 3;
             this.btnRollD6.Text = "Roll";
             this.btnRollD6.UseVisualStyleBackColor = true;
             this.btnRollD6.Click += new System.EventHandler(this.btnRollD6_Click);
@@ -372,7 +372,7 @@
             this.btnRollD8.Location = new System.Drawing.Point(210, 111);
             this.btnRollD8.Name = "btnRollD8";
             this.btnRollD8.Size = new System.Drawing.Size(45, 23);
-            this.btnRollD8.TabIndex = 23;
+            this.btnRollD8.TabIndex = 6;
             this.btnRollD8.Text = "Roll";
             this.btnRollD8.UseVisualStyleBackColor = true;
             this.btnRollD8.Click += new System.EventHandler(this.btnRollD8_Click);
@@ -382,7 +382,7 @@
             this.btnRollD10.Location = new System.Drawing.Point(210, 151);
             this.btnRollD10.Name = "btnRollD10";
             this.btnRollD10.Size = new System.Drawing.Size(45, 23);
-            this.btnRollD10.TabIndex = 24;
+            this.btnRollD10.TabIndex = 9;
             this.btnRollD10.Text = "Roll";
             this.btnRollD10.UseVisualStyleBackColor = true;
             this.btnRollD10.Click += new System.EventHandler(this.btnRollD10_Click);
@@ -392,7 +392,7 @@
             this.btnRollD12.Location = new System.Drawing.Point(210, 191);
             this.btnRollD12.Name = "btnRollD12";
             this.btnRollD12.Size = new System.Drawing.Size(45, 23);
-            this.btnRollD12.TabIndex = 25;
+            this.btnRollD12.TabIndex = 12;
             this.btnRollD12.Text = "Roll";
             this.btnRollD12.UseVisualStyleBackColor = true;
             this.btnRollD12.Click += new System.EventHandler(this.btnRollD12_Click);
@@ -402,7 +402,7 @@
             this.btnRollCustom1.Location = new System.Drawing.Point(210, 318);
             this.btnRollCustom1.Name = "btnRollCustom1";
             this.btnRollCustom1.Size = new System.Drawing.Size(45, 23);
-            this.btnRollCustom1.TabIndex = 26;
+            this.btnRollCustom1.TabIndex = 23;
             this.btnRollCustom1.Text = "Roll";
             this.btnRollCustom1.UseVisualStyleBackColor = true;
             this.btnRollCustom1.Click += new System.EventHandler(this.btnRollCustom1_Click);
@@ -412,7 +412,7 @@
             this.btnRollCustom2.Location = new System.Drawing.Point(210, 359);
             this.btnRollCustom2.Name = "btnRollCustom2";
             this.btnRollCustom2.Size = new System.Drawing.Size(45, 23);
-            this.btnRollCustom2.TabIndex = 27;
+            this.btnRollCustom2.TabIndex = 29;
             this.btnRollCustom2.Text = "Roll";
             this.btnRollCustom2.UseVisualStyleBackColor = true;
             this.btnRollCustom2.Click += new System.EventHandler(this.btnRollCustom2_Click);
@@ -422,7 +422,7 @@
             this.btnRollCustom3.Location = new System.Drawing.Point(210, 400);
             this.btnRollCustom3.Name = "btnRollCustom3";
             this.btnRollCustom3.Size = new System.Drawing.Size(45, 23);
-            this.btnRollCustom3.TabIndex = 28;
+            this.btnRollCustom3.TabIndex = 35;
             this.btnRollCustom3.Text = "Roll";
             this.btnRollCustom3.UseVisualStyleBackColor = true;
             this.btnRollCustom3.Click += new System.EventHandler(this.btnRollCustom3_Click);
@@ -433,7 +433,9 @@
             this.cboCustom1.Location = new System.Drawing.Point(86, 317);
             this.cboCustom1.Name = "cboCustom1";
             this.cboCustom1.Size = new System.Drawing.Size(109, 24);
-            this.cboCustom1.TabIndex = 29;
+            this.cboCustom1.TabIndex = 22;
+            this.cboCustom1.SelectedIndexChanged += new System.EventHandler(this.cboCustom1_SelectedIndexChanged);
+            this.cboCustom1.TextChanged += new System.EventHandler(this.cboCustom1_TextChanged);
             // 
             // cboCustom2
             // 
@@ -441,7 +443,9 @@
             this.cboCustom2.Location = new System.Drawing.Point(86, 358);
             this.cboCustom2.Name = "cboCustom2";
             this.cboCustom2.Size = new System.Drawing.Size(109, 24);
-            this.cboCustom2.TabIndex = 30;
+            this.cboCustom2.TabIndex = 28;
+            this.cboCustom2.SelectedIndexChanged += new System.EventHandler(this.cboCustom2_SelectedIndexChanged);
+            this.cboCustom2.TextChanged += new System.EventHandler(this.cboCustom2_TextChanged);
             // 
             // cboCustom3
             // 
@@ -449,35 +453,40 @@
             this.cboCustom3.Location = new System.Drawing.Point(86, 399);
             this.cboCustom3.Name = "cboCustom3";
             this.cboCustom3.Size = new System.Drawing.Size(109, 24);
-            this.cboCustom3.TabIndex = 31;
+            this.cboCustom3.TabIndex = 34;
+            this.cboCustom3.SelectedIndexChanged += new System.EventHandler(this.cboCustom3_SelectedIndexChanged);
+            this.cboCustom3.TextChanged += new System.EventHandler(this.cboCustom3_TextChanged);
             // 
             // chkSave1
             // 
             this.chkSave1.AutoSize = true;
+            this.chkSave1.Enabled = false;
             this.chkSave1.Location = new System.Drawing.Point(12, 321);
             this.chkSave1.Name = "chkSave1";
             this.chkSave1.Size = new System.Drawing.Size(59, 20);
-            this.chkSave1.TabIndex = 32;
+            this.chkSave1.TabIndex = 21;
             this.chkSave1.Text = "Save";
             this.chkSave1.UseVisualStyleBackColor = true;
             // 
             // chkSave2
             // 
             this.chkSave2.AutoSize = true;
+            this.chkSave2.Enabled = false;
             this.chkSave2.Location = new System.Drawing.Point(12, 362);
             this.chkSave2.Name = "chkSave2";
             this.chkSave2.Size = new System.Drawing.Size(59, 20);
-            this.chkSave2.TabIndex = 33;
+            this.chkSave2.TabIndex = 27;
             this.chkSave2.Text = "Save";
             this.chkSave2.UseVisualStyleBackColor = true;
             // 
             // chkSave3
             // 
             this.chkSave3.AutoSize = true;
+            this.chkSave3.Enabled = false;
             this.chkSave3.Location = new System.Drawing.Point(12, 403);
             this.chkSave3.Name = "chkSave3";
             this.chkSave3.Size = new System.Drawing.Size(59, 20);
-            this.chkSave3.TabIndex = 34;
+            this.chkSave3.TabIndex = 33;
             this.chkSave3.Text = "Save";
             this.chkSave3.UseVisualStyleBackColor = true;
             // 
@@ -492,7 +501,7 @@
             0});
             this.nudCustom2.Name = "nudCustom2";
             this.nudCustom2.Size = new System.Drawing.Size(48, 22);
-            this.nudCustom2.TabIndex = 35;
+            this.nudCustom2.TabIndex = 30;
             this.nudCustom2.Value = new decimal(new int[] {
             1,
             0,
@@ -522,7 +531,7 @@
             this.btnRollD100.Location = new System.Drawing.Point(210, 274);
             this.btnRollD100.Name = "btnRollD100";
             this.btnRollD100.Size = new System.Drawing.Size(45, 26);
-            this.btnRollD100.TabIndex = 41;
+            this.btnRollD100.TabIndex = 18;
             this.btnRollD100.Text = "Roll";
             this.btnRollD100.UseVisualStyleBackColor = true;
             this.btnRollD100.Click += new System.EventHandler(this.btnRollD100_Click);
@@ -538,7 +547,7 @@
             0});
             this.nudD100.Name = "nudD100";
             this.nudD100.Size = new System.Drawing.Size(48, 22);
-            this.nudD100.TabIndex = 40;
+            this.nudD100.TabIndex = 19;
             this.nudD100.Value = new decimal(new int[] {
             1,
             0,
@@ -580,7 +589,7 @@
             0});
             this.nudDX1.Name = "nudDX1";
             this.nudDX1.Size = new System.Drawing.Size(57, 22);
-            this.nudDX1.TabIndex = 43;
+            this.nudDX1.TabIndex = 25;
             this.nudDX1.Value = new decimal(new int[] {
             2,
             0,
@@ -602,7 +611,7 @@
             0});
             this.nudDX2.Name = "nudDX2";
             this.nudDX2.Size = new System.Drawing.Size(57, 22);
-            this.nudDX2.TabIndex = 44;
+            this.nudDX2.TabIndex = 31;
             this.nudDX2.Value = new decimal(new int[] {
             2,
             0,
@@ -624,7 +633,7 @@
             0});
             this.nudDX3.Name = "nudDX3";
             this.nudDX3.Size = new System.Drawing.Size(57, 22);
-            this.nudDX3.TabIndex = 45;
+            this.nudDX3.TabIndex = 37;
             this.nudDX3.Value = new decimal(new int[] {
             2,
             0,
@@ -646,7 +655,7 @@
             -2147483648});
             this.nudD4Mod.Name = "nudD4Mod";
             this.nudD4Mod.Size = new System.Drawing.Size(48, 22);
-            this.nudD4Mod.TabIndex = 46;
+            this.nudD4Mod.TabIndex = 2;
             // 
             // nudD6Mod
             // 
@@ -663,7 +672,7 @@
             -2147483648});
             this.nudD6Mod.Name = "nudD6Mod";
             this.nudD6Mod.Size = new System.Drawing.Size(48, 22);
-            this.nudD6Mod.TabIndex = 47;
+            this.nudD6Mod.TabIndex = 5;
             // 
             // nudD8Mod
             // 
@@ -680,7 +689,7 @@
             -2147483648});
             this.nudD8Mod.Name = "nudD8Mod";
             this.nudD8Mod.Size = new System.Drawing.Size(48, 22);
-            this.nudD8Mod.TabIndex = 48;
+            this.nudD8Mod.TabIndex = 8;
             // 
             // nudD10Mod
             // 
@@ -697,7 +706,7 @@
             -2147483648});
             this.nudD10Mod.Name = "nudD10Mod";
             this.nudD10Mod.Size = new System.Drawing.Size(48, 22);
-            this.nudD10Mod.TabIndex = 49;
+            this.nudD10Mod.TabIndex = 11;
             // 
             // nudD12Mod
             // 
@@ -714,7 +723,7 @@
             -2147483648});
             this.nudD12Mod.Name = "nudD12Mod";
             this.nudD12Mod.Size = new System.Drawing.Size(48, 22);
-            this.nudD12Mod.TabIndex = 50;
+            this.nudD12Mod.TabIndex = 14;
             // 
             // nudD100Mod
             // 
@@ -731,7 +740,7 @@
             -2147483648});
             this.nudD100Mod.Name = "nudD100Mod";
             this.nudD100Mod.Size = new System.Drawing.Size(48, 22);
-            this.nudD100Mod.TabIndex = 51;
+            this.nudD100Mod.TabIndex = 20;
             // 
             // nudDXMod1
             // 
@@ -748,7 +757,7 @@
             -2147483648});
             this.nudDXMod1.Name = "nudDXMod1";
             this.nudDXMod1.Size = new System.Drawing.Size(48, 22);
-            this.nudDXMod1.TabIndex = 52;
+            this.nudDXMod1.TabIndex = 26;
             // 
             // nudDXMod2
             // 
@@ -765,7 +774,7 @@
             -2147483648});
             this.nudDXMod2.Name = "nudDXMod2";
             this.nudDXMod2.Size = new System.Drawing.Size(48, 22);
-            this.nudDXMod2.TabIndex = 53;
+            this.nudDXMod2.TabIndex = 32;
             // 
             // nudDXMod3
             // 
@@ -782,7 +791,7 @@
             -2147483648});
             this.nudDXMod3.Name = "nudDXMod3";
             this.nudDXMod3.Size = new System.Drawing.Size(48, 22);
-            this.nudDXMod3.TabIndex = 54;
+            this.nudDXMod3.TabIndex = 38;
             // 
             // txtLog
             // 
@@ -988,14 +997,14 @@
             -2147483648});
             this.nudD20Mod.Name = "nudD20Mod";
             this.nudD20Mod.Size = new System.Drawing.Size(48, 22);
-            this.nudD20Mod.TabIndex = 79;
+            this.nudD20Mod.TabIndex = 17;
             // 
             // btnRollD20
             // 
             this.btnRollD20.Location = new System.Drawing.Point(210, 231);
             this.btnRollD20.Name = "btnRollD20";
             this.btnRollD20.Size = new System.Drawing.Size(45, 26);
-            this.btnRollD20.TabIndex = 78;
+            this.btnRollD20.TabIndex = 15;
             this.btnRollD20.Text = "Roll";
             this.btnRollD20.UseVisualStyleBackColor = true;
             this.btnRollD20.Click += new System.EventHandler(this.btnRollD20_Click);
@@ -1011,7 +1020,7 @@
             0});
             this.nudD20.Name = "nudD20";
             this.nudD20.Size = new System.Drawing.Size(48, 22);
-            this.nudD20.TabIndex = 77;
+            this.nudD20.TabIndex = 16;
             this.nudD20.Value = new decimal(new int[] {
             1,
             0,
@@ -1033,7 +1042,7 @@
             this.btnClearLog.Location = new System.Drawing.Point(86, 7);
             this.btnClearLog.Name = "btnClearLog";
             this.btnClearLog.Size = new System.Drawing.Size(109, 25);
-            this.btnClearLog.TabIndex = 82;
+            this.btnClearLog.TabIndex = 39;
             this.btnClearLog.Text = "Reset Log";
             this.btnClearLog.UseVisualStyleBackColor = true;
             this.btnClearLog.Click += new System.EventHandler(this.btnClearLog_Click);
