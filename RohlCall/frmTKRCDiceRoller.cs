@@ -49,7 +49,7 @@ namespace RohlCall
                     }
                     else    //negative modifier
                     {
-                        logModifier = " - " + modifier;
+                        logModifier = " " + modifier;
                     }
                     logResults += roll + ")" + logModifier;
                 }
